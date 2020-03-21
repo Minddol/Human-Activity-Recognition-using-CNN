@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivityRecognition.iml" filepath="$PROJECT_DIR$/ActivityRecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/ActivityRecognition-app.iml" filepath="$PROJECT_DIR$/app/ActivityRecognition-app.iml" group="ActivityRecognition/app" />
+      <module fileurl="file://$PROJECT_DIR$/Human-Activity-Recognition-using-CNN-ActivityRecognition.iml" filepath="$PROJECT_DIR$/Human-Activity-Recognition-using-CNN-ActivityRecognition.iml" group="ActivityRecognition" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
