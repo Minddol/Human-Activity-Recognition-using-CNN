@@ -6,8 +6,9 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             // Copy all x, y and z values to input_signal
             int i = 0;
-            while (i < NUM_SAMPLES) {
+            while (i < N_SAMPLES) {
               input_signal.add(x.get(i));
               input_signal.add(y.get(i));
               input_signal.add(z.get(i));
